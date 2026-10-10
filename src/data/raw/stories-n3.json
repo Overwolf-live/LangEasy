@@ -1,0 +1,1469 @@
+[
+ {
+  "id": "n3-night-1",
+  "title": "Нічна зміна Юкі",
+  "l": 3,
+  "topic": "work",
+  "summary": "Юкі працює допізна, а ти намагаєшся допомогти їй не заснути.",
+  "scenes": [
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "narr": "Опівночі в центрі міста ще світяться вікна. Юкі виходить із кафе, ледве тримаючись на ногах."
+   },
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "最近、バイトが忙しくて、毎晩帰るのが遅くなってきたの。",
+    "r": "saikin, baito ga isogashikute, maiban kaeru no ga osoku natte kita no.",
+    "uk": "Останнім часом на підробітку так завантажено, що щовечора вертаюся пізніше."
+   },
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "このままだと、明日の試験に間に合わないかもしれない。",
+    "r": "kono mama da to, ashita no shiken ni ma ni awanai kamoshirenai.",
+    "uk": "Якщо так піде далі, я, мабуть, не встигну до завтрашнього іспиту.",
+    "choice": {
+     "prompt": "Що порадиш?",
+     "options": [
+      {
+       "jp": "無理をしないで、今夜は早く休んだほうがいいよ。",
+       "uk": "Не перенапружуйся, краще сьогодні ляж раніше.",
+       "correct": true,
+       "fb": "Розумна порада! «〜たほうがいい» — рекомендація."
+      },
+      {
+       "jp": "コーヒーを十杯飲めば、問題ないよ。",
+       "uk": "Випий десять кав, і проблем не буде.",
+       "correct": false,
+       "fb": "Це шкідливо й не вирішує справи."
+      },
+      {
+       "jp": "試験なんて、どうでもいいよ。",
+       "uk": "Іспит — то дрібниці.",
+       "correct": false,
+       "fb": "Так ти її лише засмутиш."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "ありがとう。でも、店長に頼まれたら断れないんだよね。",
+    "r": "arigatou. demo, tenchou ni tanomaretara kotowarenai n da yo ne.",
+    "uk": "Дякую. Але коли просить керівник, відмовити важко."
+   },
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти бачиш неоновий знак круглосуточного магазину й пропонуєш зайти по гарячий напій."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "あっ、ここのおにぎり、新発売だって！",
+    "r": "a, koko no onigiri, shinhatsubai datte!",
+    "uk": "О, тут онігірі, кажуть, новинка!"
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "「からあげマヨ」…どう思う？",
+    "r": "'karaage mayo'... dou omou?",
+    "uk": "«Куряче з майонезом»... Що думаєш?",
+    "choice": {
+     "prompt": "Як відповісти?",
+     "options": [
+      {
+       "jp": "絶対にまずいに違いないよ！食べたことがないけど。",
+       "uk": "Це точно жахливо! Хоча я й не куштував.",
+       "correct": false,
+       "fb": "Смішно, але безпідставно. Відповідь лише жарт."
+      },
+      {
+       "jp": "おいしそうだけど、夜中に食べると太るらしいよ。",
+       "uk": "Здається смачним, але кажуть, що їсти вночі — гладшають.",
+       "correct": true,
+       "fb": "Влучно! «〜らしい» — це чутка."
+      },
+      {
+       "jp": "仕事の話しかしたくないよ。",
+       "uk": "Хочу говорити лише про роботу.",
+       "correct": false,
+       "fb": "Юкі ж хоче відпочити від цього."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ви вдвох ділите один онігірі. Він виявляється напрочуд смачним."
+   },
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "今日は話を聞いてくれて、ありがとう。おかげで元気が出たよ。",
+    "r": "kyou wa hanashi o kiite kurete, arigatou. okage de genki ga deta yo.",
+    "uk": "Дякую, що вислухав. Завдяки цьому я набралася сил."
+   },
+   {
+    "bg": "night_city",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "明日、試験が終わったら、今度は私がおごるからね。",
+    "r": "ashita, shiken ga owattara, kondo wa watashi ga ogoru kara ne.",
+    "uk": "Завтра, коли закінчиться іспит, пригощатиму вже я."
+   }
+  ]
+ },
+ {
+  "id": "n3-train-1",
+  "title": "Затримка на лінії",
+  "l": 3,
+  "topic": "transport",
+  "summary": "Поїзд зупинився посеред поля, а ryo зберігає спокій.",
+  "scenes": [
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти їдеш на важливу співбесіду. Раптом поїзд різко гальмує й зупиняється."
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "ご乗車中のお客様にお知らせいたします。ただいま、信号の故障のため停車しております。",
+    "r": "gojousha-chuu no okyakusama ni oshirase itashimasu. tadaima, shingou no koshou no tame teisha shite orimasu.",
+    "uk": "Повідомлення для пасажирів: наразі ми стоїмо через несправність сигналу."
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "復旧には三十分ほどかかる見込みです。",
+    "r": "fukkyuu ni wa sanjuppun hodo kakaru mikomi desu.",
+    "uk": "Очікуємо, що відновлення займе близько тридцяти хвилин.",
+    "choice": {
+     "prompt": "Що зробиш?",
+     "options": [
+      {
+       "jp": "もう諦めて、家に帰ります。",
+       "uk": "Здамся й повернуся додому.",
+       "correct": false,
+       "fb": "Занадто рано опускати руки."
+      },
+      {
+       "jp": "窓から飛び降りて、走って行きます。",
+       "uk": "Вистрибну у вікно й побіжу.",
+       "correct": false,
+       "fb": "Це небезпечно й не по-дорослому."
+      },
+      {
+       "jp": "面接先に連絡して、遅れることを伝えます。",
+       "uk": "Зв'яжуся з місцем співбесіди й скажу про запізнення.",
+       "correct": true,
+       "fb": "Правильно! Попередити — відповідально."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "お客様、携帯電話での通話はご遠慮ください。",
+    "r": "okyakusama, keitai denwa de no tsuuwa wa goenryo kudasai.",
+    "uk": "Пане, просимо утриматися від розмов по телефону."
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "メールでしたら、問題ございません。",
+    "r": "meeru deshitara, mondai gozaimasen.",
+    "uk": "А повідомлення можна.",
+    "choice": {
+     "prompt": "Як відповісти?",
+     "options": [
+      {
+       "jp": "なるほど、ではメールを送ることにします。",
+       "uk": "Зрозуміло, тоді відправлю лист.",
+       "correct": true,
+       "fb": "Чудово! «〜ことにする» — рішення, яке ти ухвалюєш сам."
+      },
+      {
+       "jp": "電車の中でも大声で話します。",
+       "uk": "Буду голосно розмовляти й у поїзді.",
+       "correct": false,
+       "fb": "Це порушення етикету."
+      },
+      {
+       "jp": "ここは電車ではありません。",
+       "uk": "Це не поїзд.",
+       "correct": false,
+       "fb": "Заперечення явної реальності не допоможе."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти пишеш листа, а потім дивишся у вікно. Пейзаж за склом схожий на листівку."
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "お待たせいたしました。まもなく運転を再開いたします。",
+    "r": "omatase itashimashita. mamonaku unten o saikai itashimasu.",
+    "uk": "Дякуємо за очікування. Незабаром відновимо рух."
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "走って行けば、間に合うかもしれませんよ。頑張ってください！",
+    "r": "hashitte ikeba, ma ni au kamoshiremasen yo. ganbatte kudasai!",
+    "uk": "Якщо побіжите, можливо, ще встигнете. Вдачі!"
+   },
+   {
+    "bg": "station",
+    "chars": [],
+    "narr": "Ти біжиш повз турнікети й чуєш, як хтось позаду гукає: «Ваш квиток!» Це, мабуть, найдовший ранок у твоєму житті."
+   }
+  ]
+ },
+ {
+  "id": "n3-school-1",
+  "title": "Культурний фестиваль",
+  "l": 3,
+  "topic": "school",
+  "summary": "Клас готує привидовий дім, але ніхто не хоче бути привидом.",
+  "scenes": [
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Біля школи висять гірлянди й плакати. Скоро культурний фестиваль, і Кен збирає всіх навколо себе."
+   },
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "うちのクラスはお化け屋敷をやることになったよ！",
+    "r": "uchi no kurasu wa obakeyashiki o yaru koto ni natta yo!",
+    "uk": "Наш клас буде робити будинок привидів!"
+   },
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "sad"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "でも、誰がお化けをやるの？私はやりたくない…",
+    "r": "demo, dare ga obake o yaru no? watashi wa yaritakunai...",
+    "uk": "Але хто гратиме привида? Я не хочу..."
+   },
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "sad"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "じゃあ、君はどうかな。声が低いから、きっと怖いよ。",
+    "r": "jaa, kimi wa dou kana. koe ga hikui kara, kitto kowai yo.",
+    "uk": "Тоді, може, ти? У тебе низький голос, це буде моторошно.",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "ぼくは人間ではないので、無理です。",
+       "uk": "Я не людина, тож не можу.",
+       "correct": false,
+       "fb": "Жарт хибний: ти ж саме людина."
+      },
+      {
+       "jp": "ぼくがやるなら、衣装は自分で選ばせてほしいな。",
+       "uk": "Якщо я буду, дозвольте мені самому обрати костюм.",
+       "correct": true,
+       "fb": "Гарно! «〜させてほしい» — прохання дозволити."
+      },
+      {
+       "jp": "お化けは本当にいるから、やりません。",
+       "uk": "Привиди існують, тому відмовляюся.",
+       "correct": false,
+       "fb": "Занадто серйозно для жарту."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Кен із ентузіазмом тягне велике біле простирадло. Здається, він уже придумав сценарій."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "left",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "У класі панує хаос: чорні завіси, картонні надгробки й непорозуміння з клеєм."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "君たち、こんなに暗くして、生徒が転んだらどうするんですか。",
+    "r": "kimitachi, konna ni kurakushite, seito ga korondara dou suru n desu ka.",
+    "uk": "Ви зробили так темно. Що, як хтось упаде?"
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "angry"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "安全が第一ですよ。",
+    "r": "anzen ga daiichi desu yo.",
+    "uk": "Безпека понад усе.",
+    "choice": {
+     "prompt": "Як відповісти?",
+     "options": [
+      {
+       "jp": "先生こそ、お化けみたいです。",
+       "uk": "Це ви, сенсею, схожі на привида.",
+       "correct": false,
+       "fb": "Грубо, і в тебе будуть проблеми."
+      },
+      {
+       "jp": "転んだ人は、お化けになればいいんです。",
+       "uk": "Хто впаде, хай стане привидом.",
+       "correct": false,
+       "fb": "Забавно, але сенсей цього не оцінить."
+      },
+      {
+       "jp": "申し訳ありません。足元に小さい電気をつけます。",
+       "uk": "Вибачте. Поставимо маленькі лампи біля підлоги.",
+       "correct": true,
+       "fb": "Дуже добре! Рішення проблеми — це відповідальність."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "わかりました。では、私も当日は見に来ますよ。",
+    "r": "wakarimashita. dewa, watashi mo toujitsu wa mi ni kimasu yo.",
+    "uk": "Гаразд. Тоді я теж прийду подивитися."
+   },
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "У день фестивалю черга тягнеться до самого двору. Привид-Мей виявилася найстрашнішою."
+   },
+   {
+    "bg": "school",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "意外と楽しかった。またやってもいいかも。",
+    "r": "igai to tanoshikatta. mata yatte mo ii kamo.",
+    "uk": "Було несподівано весело. Можливо, ще раз зіграю."
+   }
+  ]
+ },
+ {
+  "id": "n3-beach-1",
+  "title": "Сонячний опік",
+  "l": 3,
+  "topic": "nature",
+  "summary": "Ти поїхав на море без крему, і Кен не вгамується зі жартами.",
+  "scenes": [
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Літо. Кен вивіз тебе на пляж. Хвилі ліниво б'ються об берег."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "海に来るのは久しぶりだな！泳ぐぞ！",
+    "r": "umi ni kuru no wa hisashiburi da na! oyogu zo!",
+    "uk": "Давно не був на морі! Іду плавати!"
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "日焼け止め、持ってきた？",
+    "r": "hiyakedome, motte kita?",
+    "uk": "Крем від засмаги привіз?",
+    "choice": {
+     "prompt": "Що відповісти?",
+     "options": [
+      {
+       "jp": "忘れてしまった。貸してもらえる？",
+       "uk": "Забув. Можеш позичити?",
+       "correct": true,
+       "fb": "Просто й чесно! «〜てもらえる?» — прохання."
+      },
+      {
+       "jp": "日焼けしたいから、いらないよ。",
+       "uk": "Я хочу засмагнути, мені не треба.",
+       "correct": false,
+       "fb": "Занадто легковажно, і ти пошкодуєш."
+      },
+      {
+       "jp": "太陽は友達だから大丈夫。",
+       "uk": "Сонце — мій друг, усе добре.",
+       "correct": false,
+       "fb": "Сонце, на жаль, не дружить із шкірою."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "実は、ぼくも忘れたんだ。",
+    "r": "jitsu wa, boku mo wasureta n da.",
+    "uk": "Насправді, я теж забув."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "narr": "Ви дивитеся одне на одного й вибухаєте сміхом. Крем лишився на кухонному столі в кожного з вас."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ви годинами граєте у волейбол, пливете до буйка й будуєте замок із піску."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "sad"
+     }
+    ],
+    "narr": "Коли сонце йде на захід, ти помічаєш, що плечі палають, як печена картопля."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "うわっ、肩が真っ赤だよ！痛くない？",
+    "r": "uwa, kata ga makka da yo! itakunai?",
+    "uk": "Ого, плечі червоні! Не болить?",
+    "choice": {
+     "prompt": "Що відповіси?",
+     "options": [
+      {
+       "jp": "全然平気だよ。もっと焼きたい。",
+       "uk": "Зовсім нічого. Хочу засмагнути ще.",
+       "correct": false,
+       "fb": "Це небезпечно для шкіри."
+      },
+      {
+       "jp": "触ると痛いよ。日陰に入らざるを得ないな。",
+       "uk": "Боляче торкатися. Доведеться піти в тінь.",
+       "correct": true,
+       "fb": "Чудово! «〜ざるを得ない» — вимушена дія."
+      },
+      {
+       "jp": "海の水はしょっぱいから痛いんだ。",
+       "uk": "Морська вода солона, тому болить.",
+       "correct": false,
+       "fb": "Причина не в цьому."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "ごめんな。ぼくが早く気づけばよかったのに。",
+    "r": "gomen na. boku ga hayaku kizukeba yokatta no ni.",
+    "uk": "Пробач. Мені б помітити раніше."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "お詫びに、かき氷をおごるよ。",
+    "r": "owabi ni, kakigoori o ogoru yo.",
+    "uk": "На вибачення пригощу льодом із сиропом."
+   },
+   {
+    "bg": "beach",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Крижаний десерт хрумтить на зубах, і плечі начебто менше болять. Принаймні, так здається."
+   }
+  ]
+ },
+ {
+  "id": "n3-home-1",
+  "title": "Генеральне прибирання",
+  "l": 3,
+  "topic": "home",
+  "summary": "Бабуся застає тебе серед хаосу й розповідає, де ховає секрети.",
+  "scenes": [
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ти допомагаєш обаа прибирати стару кімнату. Скрізь пилюка, коробки та запах давнини."
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "これは懐かしいね。子どもの頃のおもちゃだよ。",
+    "r": "kore wa natsukashii ne. kodomo no koro no omocha da yo.",
+    "uk": "Яка ностальгія. Це іграшка з мого дитинства."
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "捨てようかと思ったけど、やっぱり思い出があるからね。",
+    "r": "suteyou ka to omotta kedo, yappari omoide ga aru kara ne.",
+    "uk": "Я думала викинути, але все ж згадки.",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "おもちゃは食べられますか。",
+       "uk": "Іграшки можна їсти?",
+       "correct": false,
+       "fb": "Хто знає, але це недоречно."
+      },
+      {
+       "jp": "ゴミだから、全部捨てるべきです。",
+       "uk": "Це сміття, усе треба викинути.",
+       "correct": false,
+       "fb": "Занадто різко для спогадів."
+      },
+      {
+       "jp": "大切な物は、無理に捨てなくてもいいと思います。",
+       "uk": "Думаю, цінні речі необов'язково викидати силоміць.",
+       "correct": true,
+       "fb": "Теплі слова! «〜なくてもいい» — не обов'язково."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "narr": "Раптом із шафи випадає стара коробка. Усередині — пожовклі листи, перев'язані тасьмою."
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "あらまあ、これは若い頃にもらったラブレターだよ。",
+    "r": "araa maa, kore wa wakai koro ni moratta rabu retaa da yo.",
+    "uk": "Ой лишенько, це любовні листи, які я одержала замолоду."
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "読みたいかい？",
+    "r": "yomitai kai?",
+    "uk": "Хочеш прочитати?",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "ぜひ聞きたいですが、無理に話さなくてもいいですよ。",
+       "uk": "Дуже хотів би послухати, але можна й не розповідати.",
+       "correct": true,
+       "fb": "Тактовно! Ти поважаєш межі."
+      },
+      {
+       "jp": "全部読んで、みんなに見せます。",
+       "uk": "Прочитаю все й покажу всім.",
+       "correct": false,
+       "fb": "Це вторгнення в особисте."
+      },
+      {
+       "jp": "手紙は嫌いなので、燃やしましょう。",
+       "uk": "Не люблю листи, давайте спалимо.",
+       "correct": false,
+       "fb": "Це жорстоко."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "実はね、相手は隣のおじいさんなんだよ。",
+    "r": "jitsu wa ne, aite wa tonari no ojiisan nan da yo.",
+    "uk": "Насправді, це лист від мого сусіда-дідуся."
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ти ледь не падаєш зі стільця. Той самий дідусь, що щоранку мовчки поливає квіти?"
+   },
+   {
+    "bg": "home",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "今でも、花を届けてくれるのは、そのせいかもしれないね。",
+    "r": "ima demo, hana o todokete kureru no wa, sono sei kamoshirenai ne.",
+    "uk": "Він і досі носить квіти, мабуть, через це."
+   }
+  ]
+ },
+ {
+  "id": "n3-street-1",
+  "title": "Загублений гаманець",
+  "l": 3,
+  "topic": "abstract",
+  "summary": "Ти губиш гаманець, а чесність незнайомців дивує більше за все.",
+  "scenes": [
+   {
+    "bg": "street",
+    "chars": [],
+    "narr": "На вулиці людно. Ти лізеш у кишеню й холонеш: гаманця немає."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "あの、これ、落としませんでしたか。",
+    "r": "ano, kore, otoshimasen deshita ka.",
+    "uk": "Перепрошую, це ви не загубили?"
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "向こうの道に落ちていたんですよ。",
+    "r": "mukou no michi ni ochite ita n desu yo.",
+    "uk": "Він лежав на тій вулиці.",
+    "choice": {
+     "prompt": "Як відповісти?",
+     "options": [
+      {
+       "jp": "それは私のではありません。",
+       "uk": "Це не мій.",
+       "correct": false,
+       "fb": "Це неправда."
+      },
+      {
+       "jp": "ありがとうございます！なくしたと思っていました。",
+       "uk": "Дякую! Я вже думав, що втратив.",
+       "correct": true,
+       "fb": "Щира вдячність! «〜と思っていた» — те, що припускав."
+      },
+      {
+       "jp": "中身を見ましたか。見たなら、お金をください。",
+       "uk": "Ви дивилися всередину? Тоді дайте грошей.",
+       "correct": false,
+       "fb": "Грубо до людини, яка допомогла."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "中を見たわけではありませんが、学生証が外から見えたので。",
+    "r": "naka o mita wake de wa arimasen ga, gakuseishou ga soto kara mieta node.",
+    "uk": "Я не заглядав усередину, просто бачив студентський квиток ззовні."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Таро — той самий офіціант із ресторану, де ти колись їв. Він упізнав тебе по зображенню на картці."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "世の中には、親切な人もいるものですね。",
+    "r": "yononaka ni wa, shinsetsu na hito mo iru mono desu ne.",
+    "uk": "На світі бувають і добрі люди.",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "お金は全部入っていますか。",
+       "uk": "А гроші всі на місці?",
+       "correct": false,
+       "fb": "Такий підозрілий тон образливий."
+      },
+      {
+       "jp": "財布が戻ったから、もう用はありません。",
+       "uk": "Гаманець повернувся, ви мені більше не потрібні.",
+       "correct": false,
+       "fb": "Холодно й несправедливо."
+      },
+      {
+       "jp": "お礼に、何かごちそうさせてください。",
+       "uk": "Дозвольте мені вас чимось пригостити на знак подяки.",
+       "correct": true,
+       "fb": "Чудово! «〜させてください» — ввічливе прохання."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "いえいえ、当たり前のことをしただけですよ。",
+    "r": "ie ie, atarimae no koto o shita dake desu yo.",
+    "uk": "Ні-ні, я зробив лише те, що слід."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Він киває й зникає в натовпі, як герой аніме, який не чекає на оплески."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "どうしたの？顔が嬉しそうだけど。",
+    "r": "doushita no? kao ga ureshisou dakedo.",
+    "uk": "Що сталося? Ти якийсь радісний."
+   }
+  ]
+ },
+ {
+  "id": "n3-classroom-1",
+  "title": "Презентація без слайдів",
+  "l": 3,
+  "topic": "school",
+  "summary": "Флешка зникла за хвилину до доповіді. Сенсей тестує твою винахідливість.",
+  "scenes": [
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Сьогодні твоя презентація про місцеві традиції. Клас уже сидить і чекає."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "では、準備ができたら始めてください。",
+    "r": "dewa, junbi ga dekitara hajimete kudasai.",
+    "uk": "Тоді починайте, коли будете готові."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти лізеш у сумку по флешку. Її немає. Ні в кишені, ні в пеналі, ні на планеті."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "どうしましたか。顔色が悪いですよ。",
+    "r": "doushimashita ka. kaoiro ga warui desu yo.",
+    "uk": "Що сталося? Ви змінилися на обличчі.",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "USBを家に忘れてきたようです。口頭で発表してもいいですか。",
+       "uk": "Здається, я забув флешку вдома. Можна розповісти усно?",
+       "correct": true,
+       "fb": "Правильно! Ти пропонуєш вихід."
+      },
+      {
+       "jp": "先生が持っているはずです。返してください。",
+       "uk": "Це ви її взяли. Поверніть.",
+       "correct": false,
+       "fb": "Безпідставне звинувачення."
+      },
+      {
+       "jp": "今日は休みます。",
+       "uk": "Я сьогодні не виступатиму.",
+       "correct": false,
+       "fb": "Це небажано й схоже на втечу."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "面白いですね。では、スライドなしでやってみてください。",
+    "r": "omoshiroi desu ne. dewa, suraido nashi de yatte mite kudasai.",
+    "uk": "Цікаво. Тоді спробуйте без слайдів."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Кен шепоче з заднього ряду: «Почни з жарту!» Але ти вирішуєш говорити від серця."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "最初に、何について話しますか。",
+    "r": "saisho ni, nani ni tsuite hanashimasu ka.",
+    "uk": "З чого розпочнете?",
+    "choice": {
+     "prompt": "Як почати?",
+     "options": [
+      {
+       "jp": "すみません、何も思い出せません。",
+       "uk": "Вибачте, нічого не пригадаю.",
+       "correct": false,
+       "fb": "Занадто швидко здаєшся."
+      },
+      {
+       "jp": "まず、私の町の祭りについてお話しします。",
+       "uk": "Спершу розповім про свято мого міста.",
+       "correct": true,
+       "fb": "Гарний початок! Чітка тема."
+      },
+      {
+       "jp": "先生の好きな食べ物について話します。",
+       "uk": "Розповім, яку їжу любить сенсей.",
+       "correct": false,
+       "fb": "Не по темі, хоч і кумедно."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ти розповідаєш про танці з ліхтарями. Слова самі складаються, а клас слухає, не дихаючи."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "スライドがなくても、よく伝わりました。",
+    "r": "suraido ga nakute mo, yoku tsutawarimashita.",
+    "uk": "Навіть без слайдів було чудово передано."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "USB、教室の机の下にあったよ。",
+    "r": "USB, kyoushitsu no tsukue no shita ni atta yo.",
+    "uk": "Флешка була під партою в класі."
+   }
+  ]
+ },
+ {
+  "id": "n3-shop-1",
+  "title": "Старий годинник",
+  "l": 3,
+  "topic": "shopping",
+  "summary": "В антикварній крамниці ти знаходиш годинник з таємницею.",
+  "scenes": [
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "У глибині старого кварталу ти натрапляєш на антикварну крамницю. Усередині пахне деревом та чаєм."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "いらっしゃい。ゆっくり見ていきなさい。",
+    "r": "irasshai. yukkuri mite ikinasai.",
+    "uk": "Ласкаво просимо. Роздивляйтеся не поспішаючи."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "На полиці стоїть старовинний годинник із дерев'яним корпусом. Стрілки застигли на трьох годинах."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "それはね、百年以上前の物なんだよ。",
+    "r": "sore wa ne, hyakunen ijou mae no mono nan da yo.",
+    "uk": "Він, знаєте, більш ніж столітньої давності.",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "ゴミみたいだから、捨てたほうがいいです。",
+       "uk": "Це як сміття, краще викинути.",
+       "correct": false,
+       "fb": "Грубо до власниці."
+      },
+      {
+       "jp": "百年前なら、私はまだ生まれていません。",
+       "uk": "Сто років тому я ще не народився.",
+       "correct": false,
+       "fb": "Правда, але в цьому нема питання."
+      },
+      {
+       "jp": "動かなくなったのに、どうして売っているんですか。",
+       "uk": "Він не працює, то чому ж ви його продаєте?",
+       "correct": true,
+       "fb": "Логічне запитання! «〜のに» виражає протиріччя."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "実は、三時になると、ひとりでに動き出すんだよ。",
+    "r": "jitsu wa, sanji ni naru to, hitori de ni ugokidasu n da yo.",
+    "uk": "Насправді, коли вибиває три, він сам починає рухатися."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "narr": "Годинник у крамниці показує 14:58. Обаа з незворушним обличчям ставить на стіл чашку чаю."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "どうする？買うかい？それとも、時間まで待つ？",
+    "r": "dou suru? kau kai? soretomo, jikan made matsu?",
+    "uk": "То що? Купуєте? Чи зачекаєте до трьох?",
+    "choice": {
+     "prompt": "Що вирішиш?",
+     "options": [
+      {
+       "jp": "三時まで待ってから、決めさせてください。",
+       "uk": "Дозвольте мені почекати до трьох і вирішити.",
+       "correct": true,
+       "fb": "Чудове рішення. Зацікавленість важлива."
+      },
+      {
+       "jp": "幽霊が出るから、すぐ逃げます。",
+       "uk": "З'явиться привид, тож негайно тікаю.",
+       "correct": false,
+       "fb": "Ти ж іще нічого не побачив."
+      },
+      {
+       "jp": "このお金で全部買います。",
+       "uk": "Куплю всю крамницю цими грошима.",
+       "correct": false,
+       "fb": "Грошей ти не маєш."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Дві хвилини тягнуться, як година. І рівно о третій годиннику... грає тихенька мелодія."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "ほらね。これは、私の主人が作ったオルゴール時計なんだよ。",
+    "r": "hora ne. kore wa, watashi no shujin ga tsukutta orugooru dokei nan da yo.",
+    "uk": "Бачите? Це годинник-музична скринька, яку створив мій чоловік."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "売るつもりはなかったけど、君になら譲ってもいいかもしれないね。",
+    "r": "uru tsumori wa nakatta kedo, kimi ni nara yuzutte mo ii kamoshirenai ne.",
+    "uk": "Я не збиралася його продавати, але вам, мабуть, можна віддати."
+   }
+  ]
+ }
+]

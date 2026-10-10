@@ -1,0 +1,1545 @@
+[
+ {
+  "id": "n4-cafe-1",
+  "title": "Останній шматок торта",
+  "l": 4,
+  "topic": "food",
+  "summary": "Ти й Кен б'єтеся за останній чізкейк у кафе.",
+  "scenes": [
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Після уроків ти заходиш у кафе. Кен уже сидить біля вікна й дивиться на вітрину."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "このチーズケーキ、おいしそうだね！",
+    "r": "kono chiizukeeki, oishisou da ne!",
+    "uk": "Цей чізкейк виглядає смачним!"
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "neutral"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "すみません、それは最後の一つなんです。",
+    "r": "sumimasen, sore wa saigo no hitotsu nan desu.",
+    "uk": "Вибачте, це вже останній шматок."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "neutral"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "えっ、最後？ぼくが先に見つけたんだよ！",
+    "r": "e, saigo? boku ga saki ni mitsuketan da yo!",
+    "uk": "Що, останній? Я першим його помітив!",
+    "choice": {
+     "prompt": "Що скажеш Кенові?",
+     "options": [
+      {
+       "jp": "じゃあ、半分ずつ食べませんか。",
+       "uk": "Тоді з'їмо по половинці?",
+       "correct": true,
+       "fb": "Чудово! «〜ませんか» — ввічлива пропозиція зробити щось разом."
+      },
+      {
+       "jp": "ぼくは絶対に食べません。",
+       "uk": "Я ні в якому разі не їстиму.",
+       "correct": false,
+       "fb": "Тоді сперечатися нема про що. Потрібна пропозиція компромісу."
+      },
+      {
+       "jp": "ケーキはきらいです。",
+       "uk": "Я не люблю торти.",
+       "correct": false,
+       "fb": "Це неправда: ти ж прийшов по торт!"
+      }
+     ]
+    }
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "いいね！じゃあ、飲み物はぼくがおごるよ。",
+    "r": "ii ne! jaa, nomimono wa boku ga ogoru yo.",
+    "uk": "Класно! Тоді напої за мій рахунок."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "ありがとうございます。ケーキを切ってきますね。",
+    "r": "arigatou gozaimasu. keeki o kitte kimasu ne.",
+    "uk": "Дякую. Піду розріжу торт."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "neutral"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Юкі довго щось рахує на кухні. Кен нервово стукає пальцями по столу."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "yuki",
+    "jp": "お待たせしました。でも、少し大きさが違ってしまいました。",
+    "r": "omatase shimashita. demo, sukoshi ookisa ga chigatte shimaimashita.",
+    "uk": "Дякую, що зачекали. Але шматки трохи вийшли різного розміру."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "angry"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "ぼくのほうが小さいじゃないか！",
+    "r": "boku no hou ga chiisai ja nai ka!",
+    "uk": "Мій же менший!",
+    "choice": {
+     "prompt": "Як вирішити суперечку?",
+     "options": [
+      {
+       "jp": "ぼくが両方食べます。",
+       "uk": "Я з'їм обидва.",
+       "correct": false,
+       "fb": "Це нечесно щодо Кена, та й він не погодиться."
+      },
+      {
+       "jp": "じゃんけんで決めましょう。",
+       "uk": "Давайте вирішимо камінь-ножиці-папір.",
+       "correct": true,
+       "fb": "Так! «〜で決める» — вирішити за допомогою чогось."
+      },
+      {
+       "jp": "ケーキを捨てましょう。",
+       "uk": "Давайте викинемо торт.",
+       "correct": false,
+       "fb": "Яка шкода їжі! Це не рішення."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "sad"
+     }
+    ],
+    "narr": "Ти виграв, але віддав Кенові більший шматок. Він дивиться на тебе з подивом."
+   },
+   {
+    "bg": "cafe",
+    "chars": [
+     {
+      "id": "yuki",
+      "pos": "right",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "ありがとう！今度、ぼくがもっと大きいケーキをおごるね。",
+    "r": "arigatou! kondo, boku ga motto ookii keeki o ogoru ne.",
+    "uk": "Дякую! Наступного разу я пригощу тебе ще більшим тортом."
+   }
+  ]
+ },
+ {
+  "id": "n4-station-1",
+  "title": "Останній поїзд",
+  "l": 4,
+  "topic": "transport",
+  "summary": "Ти запізнюєшся на поїзд, а ryo допомагає знайти потрібну платформу.",
+  "scenes": [
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Вечір. Ти біжиш на станцію, бо боїшся спізнитися на останній поїзд додому."
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "お客さん、そんなに急ぐと危ないですよ。",
+    "r": "okyaku-san, sonna ni isogu to abunai desu yo.",
+    "uk": "Пане, так поспішати небезпечно."
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "どちらまでいらっしゃいますか。",
+    "r": "dochira made irasshaimasu ka.",
+    "uk": "Куди ви їдете?",
+    "choice": {
+     "prompt": "Що відповіси?",
+     "options": [
+      {
+       "jp": "電車は好きじゃありません。",
+       "uk": "Я не люблю поїзди.",
+       "correct": false,
+       "fb": "Це не відповідає на запитання."
+      },
+      {
+       "jp": "昨日、さくら駅に行きました。",
+       "uk": "Учора я їздив на станцію Сакура.",
+       "correct": false,
+       "fb": "Минулий час тут недоречний: ти хочеш поїхати зараз."
+      },
+      {
+       "jp": "さくら駅まで行きたいんですが、何番線ですか。",
+       "uk": "Мені до станції Сакура. Яка платформа?",
+       "correct": true,
+       "fb": "Правильно! «〜たいんですが» м'яко починає прохання."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "さくら駅なら、三番線です。あと二分で出ますよ。",
+    "r": "sakura-eki nara, sanbansen desu. ato nifun de demasu yo.",
+    "uk": "На станцію Сакура — платформа три. Відправлення за дві хвилини."
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти біжиш сходами вниз. Раптом розумієш, що не маєш квитка з собою."
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "切符を買う時間はありませんね。",
+    "r": "kippu o kau jikan wa arimasen ne.",
+    "uk": "На купівлю квитка часу вже немає.",
+    "choice": {
+     "prompt": "Що зробити?",
+     "options": [
+      {
+       "jp": "ICカードでタッチして入ります。",
+       "uk": "Пройду, прикладаючи проїзну картку.",
+       "correct": true,
+       "fb": "Так! З карткою можна пройти без квитка."
+      },
+      {
+       "jp": "走って乗ってしまいます。",
+       "uk": "Просто пробіжу й заскочу.",
+       "correct": false,
+       "fb": "Це небезпечно й заборонено."
+      },
+      {
+       "jp": "駅の外で待ちます。",
+       "uk": "Почекаю надворі.",
+       "correct": false,
+       "fb": "Тоді ти точно запізнишся на поїзд."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "station",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "いってらっしゃい！ドアが閉まる前に乗ってください。",
+    "r": "itterasshai! doa ga shimaru mae ni notte kudasai.",
+    "uk": "Щасливої дороги! Заходьте до закриття дверей."
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти встигаєш у останній момент. Двері зачиняються просто за твоєю спиною."
+   },
+   {
+    "bg": "train",
+    "chars": [],
+    "narr": "Усередині майже порожньо. Ти сідаєш і видихаєш: сьогодні пощастило."
+   },
+   {
+    "bg": "train",
+    "chars": [
+     {
+      "id": "ryo",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ryo",
+    "jp": "間に合いましたね。よかったですね。",
+    "r": "ma ni aimashita ne. yokatta desu ne.",
+    "uk": "Ви встигли. Це добре!"
+   }
+  ]
+ },
+ {
+  "id": "n4-school-1",
+  "title": "Домашнє завдання з'їв пес",
+  "l": 4,
+  "topic": "school",
+  "summary": "Ти забув зошит, а сенсей не вірить у відмовку.",
+  "scenes": [
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ранок у класі. Сенсей збирає домашні завдання, і ти раптом пам'ятаєш: зошит залишився вдома."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "宿題を出してください。",
+    "r": "shukudai o dashite kudasai.",
+    "uk": "Здайте домашнє завдання."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "どうしましたか。顔が青いですよ。",
+    "r": "dou shimashita ka. kao ga aoi desu yo.",
+    "uk": "Що сталося? Ви бліді.",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "宿題は犬が食べました。",
+       "uk": "Завдання з'їв пес.",
+       "correct": false,
+       "fb": "Сенсей навряд чи повірить у цю відмовку."
+      },
+      {
+       "jp": "すみません、宿題を忘れてしまいました。",
+       "uk": "Вибачте, я забув зробити завдання.",
+       "correct": true,
+       "fb": "Чесність найкраща! «〜てしまう» передає жаль."
+      },
+      {
+       "jp": "宿題はありませんでした。",
+       "uk": "Завдання не було.",
+       "correct": false,
+       "fb": "Це неправда, і сенсей це знає."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "angry"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "先生、ぼくのも見せましょうか。",
+    "r": "sensei, boku no mo misemashou ka.",
+    "uk": "Сенсею, може, показати й моє?"
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "angry"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "ケンさん、それは宿題を写すことですよ。",
+    "r": "ken-san, sore wa shukudai o utsusu koto desu yo.",
+    "uk": "Кене, це називається списування."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "sad"
+     }
+    ],
+    "narr": "Клас затих. Кен повільно опускає зошит."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "では、どうしますか。",
+    "r": "dewa, dou shimasu ka.",
+    "uk": "Отже, що ви зробите?",
+    "choice": {
+     "prompt": "Запропонуй вихід.",
+     "options": [
+      {
+       "jp": "宿題はやりたくないです。",
+       "uk": "Я не хочу робити завдання.",
+       "correct": false,
+       "fb": "Таку відповідь точно не оцінять."
+      },
+      {
+       "jp": "明日、新しい先生に頼みます。",
+       "uk": "Завтра попрошу іншого вчителя.",
+       "correct": false,
+       "fb": "Так ти нічого не вирішиш."
+      },
+      {
+       "jp": "昼休みに家へ取りに行ってもいいですか。",
+       "uk": "Чи можна у перерву збігати по нього додому?",
+       "correct": true,
+       "fb": "Добре! «〜てもいいですか» — прохання про дозвіл."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "sensei",
+    "jp": "わかりました。でも、今日だけですよ。",
+    "r": "wakarimashita. demo, kyou dake desu yo.",
+    "uk": "Гаразд. Але тільки сьогодні."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "happy"
+     },
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "ぼくも一緒に行こうか。自転車があるよ。",
+    "r": "boku mo issho ni ikou ka. jitensha ga aru yo.",
+    "uk": "Може, я з тобою? У мене є велосипед."
+   },
+   {
+    "bg": "classroom",
+    "chars": [
+     {
+      "id": "sensei",
+      "pos": "center",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "Ти їдеш на велосипеді так швидко, як ніколи. Зошит ти ще ніколи так не любив."
+   }
+  ]
+ },
+ {
+  "id": "n4-shop-1",
+  "title": "Знижка від бабусі",
+  "l": 4,
+  "topic": "shopping",
+  "summary": "Бабуся-власниця крамниці вміє торгуватися краще за всіх.",
+  "scenes": [
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Маленька крамниця біля дому. За прилавком сидить обаа і в'яже шарф."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "いらっしゃい。何をお探しかい？",
+    "r": "irasshai. nani o osagashi kai?",
+    "uk": "Ласкаво просимо. Що шукаєте?"
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "この帽子はどうだい。よく似合うと思うよ。",
+    "r": "kono boushi wa dou dai. yoku niau to omou yo.",
+    "uk": "Як вам ця шапка? Думаю, вам дуже личить.",
+    "choice": {
+     "prompt": "Як відповісти?",
+     "options": [
+      {
+       "jp": "すてきですね。でも、ちょっと高いです。",
+       "uk": "Чудова. Але трохи дорога.",
+       "correct": true,
+       "fb": "Ввічливо й чесно. Так починається торг."
+      },
+      {
+       "jp": "いいえ、帽子は食べません。",
+       "uk": "Ні, шапки не їдять.",
+       "correct": false,
+       "fb": "Це кумедно, але недоречно."
+      },
+      {
+       "jp": "もう二度と来ません。",
+       "uk": "Більше ніколи не прийду.",
+       "correct": false,
+       "fb": "Занадто різко, ти ж лише питаєш про ціну."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "そうかい？じゃあ、千円まけてあげようか。",
+    "r": "sou kai? jaa, sen-en makete ageyou ka.",
+    "uk": "Он як? Може, знижу на тисячу єн?"
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "その代わり、この手袋も買ってくれるとうれしいね。",
+    "r": "sono kawari, kono tebukuro mo katte kureru to ureshii ne.",
+    "uk": "Але взамін я була б рада, якби ви купили й ці рукавички."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "どうする？",
+    "r": "dou suru?",
+    "uk": "То що?",
+    "choice": {
+     "prompt": "Що вирішиш?",
+     "options": [
+      {
+       "jp": "手袋は売らないでください。",
+       "uk": "Не продавайте рукавички.",
+       "correct": false,
+       "fb": "Дивна відповідь для покупця."
+      },
+      {
+       "jp": "では、両方いただきます。",
+       "uk": "Тоді беру обидва.",
+       "correct": true,
+       "fb": "Правильно! «いただきます» тут означає «беру»."
+      },
+      {
+       "jp": "お金がないので、見ませんでした。",
+       "uk": "У мене немає грошей, тому я не дивився.",
+       "correct": false,
+       "fb": "Тобі ж пропонували, відповідь недоречна."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Обаа акуратно загортає покупки й додає ще й цукерку."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "おまけだよ。寒くなったら、またおいで。",
+    "r": "omake da yo. samuku nattara, mata oide.",
+    "uk": "Це подарунок. Як похолодає, приходьте знову."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "obaa",
+    "jp": "それから、明日は雨が降るそうだから、傘も持っていきなさい。",
+    "r": "sorekara, ashita wa ame ga furu sou da kara, kasa mo motte ikinasai.",
+    "uk": "І завтра, кажуть, буде дощ, тож візьміть і парасольку."
+   },
+   {
+    "bg": "shop",
+    "chars": [
+     {
+      "id": "obaa",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Виходячи, ти розумієш: вона продала тобі більше, ніж ти хотів. Але ти усміхаєшся."
+   }
+  ]
+ },
+ {
+  "id": "n4-hospital-1",
+  "title": "Звичайна застуда",
+  "l": 4,
+  "topic": "health",
+  "summary": "Мей проводить тебе до лікарні, коли ти хворієш.",
+  "scenes": [
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "narr": "Ти йдеш по вулиці, і голова наче чавунна. Мей помічає тебе й хвилюється."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "顔色が悪いよ。熱があるんじゃない？",
+    "r": "kaoiro ga warui yo. netsu ga aru n ja nai?",
+    "uk": "Ти поганенько виглядаєш. Може, у тебе температура?"
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "病院へ行ったほうがいいと思う。一緒に行くよ。",
+    "r": "byouin e itta hou ga ii to omou. issho ni iku yo.",
+    "uk": "Думаю, краще піти до лікарні. Я піду з тобою."
+   },
+   {
+    "bg": "hospital",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "left",
+      "mood": "neutral"
+     }
+    ],
+    "narr": "У приймальні тихо пахне ліками. Мей мовчки гортає книжку, але щоразу поглядає на тебе."
+   },
+   {
+    "bg": "hospital",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "今日はどうしましたか。",
+    "r": "kyou wa dou shimashita ka.",
+    "uk": "Що вас турбує?",
+    "choice": {
+     "prompt": "Опиши симптоми.",
+     "options": [
+      {
+       "jp": "元気すぎて、困っています。",
+       "uk": "Я такий бадьорий, що це проблема.",
+       "correct": false,
+       "fb": "Це неправда й безглуздо."
+      },
+      {
+       "jp": "昨日、カレーを作りました。",
+       "uk": "Вчора я готував каррі.",
+       "correct": false,
+       "fb": "Лікар питає про самопочуття."
+      },
+      {
+       "jp": "のどが痛くて、頭も痛いです。",
+       "uk": "У мене болить горло й голова.",
+       "correct": true,
+       "fb": "Чудово! «〜くて» поєднує симптоми."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "hospital",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "ちょっと口を開けてください。ああ、風邪ですね。",
+    "r": "chotto kuchi o akete kudasai. aa, kaze desu ne.",
+    "uk": "Відкрийте, будь ласка, рота. Так, це застуда."
+   },
+   {
+    "bg": "hospital",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "薬を飲んで、よく寝れば、すぐ治りますよ。",
+    "r": "kusuri o nonde, yoku nereba, sugu naorimasu yo.",
+    "uk": "Якщо вип'єте ліки й добре виспитеся, швидко одужаєте."
+   },
+   {
+    "bg": "hospital",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "neutral"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "お酒や冷たい物は飲まないようにしてください。",
+    "r": "osake ya tsumetai mono wa nomanai you ni shite kudasai.",
+    "uk": "Намагайтеся не пити алкоголь і холодне.",
+    "choice": {
+     "prompt": "Що відповісти?",
+     "options": [
+      {
+       "jp": "はい、気をつけます。",
+       "uk": "Так, буду обережний.",
+       "correct": true,
+       "fb": "Ввічлива й правильна відповідь."
+      },
+      {
+       "jp": "いいえ、冷たいジュースを三本飲みます。",
+       "uk": "Ні, вип'ю три холодні соки.",
+       "correct": false,
+       "fb": "Це суперечить пораді лікаря."
+      },
+      {
+       "jp": "先生は風邪ですか。",
+       "uk": "Ви застудилися, лікарю?",
+       "correct": false,
+       "fb": "Невдалий жарт, лікар не про себе."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Після лікарні Мей купує тобі теплий чай і ще й подає шарф."
+   },
+   {
+    "bg": "street",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "早く元気になってね。待ってるから。",
+    "r": "hayaku genki ni natte ne. matteru kara.",
+    "uk": "Швидше одужуй. Я чекатиму."
+   }
+  ]
+ },
+ {
+  "id": "n4-park-1",
+  "title": "Пікнік під дощем",
+  "l": 4,
+  "topic": "hobby",
+  "summary": "Ви з Кеном вирішуєте на пікнік, але хмари мають інші плани.",
+  "scenes": [
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Неділя. Кен приніс величезний кошик їжі й сяє від радості."
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "今日は最高の天気だね！ピクニック日和だ！",
+    "r": "kyou wa saikou no tenki da ne! pikunikku biyori da!",
+    "uk": "Сьогодні чудова погода! Ідеальна для пікніка!"
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ви розстеляєте плед під великим деревом. Кен викладає онігірі, смажену курку й цілу гору печива."
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "あれ？空が暗くなってきたよ。",
+    "r": "are? sora ga kuraku natte kita yo.",
+    "uk": "Ого? Небо темніє."
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "sad"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "雨が降りそうだね…どうしよう？",
+    "r": "ame ga furisou da ne... doushiyou?",
+    "uk": "Схоже, піде дощ... Що робити?",
+    "choice": {
+     "prompt": "Що запропонуєш?",
+     "options": [
+      {
+       "jp": "雨の中で、傘なしで踊りましょう。",
+       "uk": "Потанцюймо під дощем без парасольки.",
+       "correct": false,
+       "fb": "Весело, але їжа промокне."
+      },
+      {
+       "jp": "あの屋根の下に行きましょう。",
+       "uk": "Ходімо під той дах.",
+       "correct": true,
+       "fb": "Розумно! «〜ましょう» — пропозиція разом діяти."
+      },
+      {
+       "jp": "家に帰って、一人で食べます。",
+       "uk": "Піду додому і з'їм усе сам.",
+       "correct": false,
+       "fb": "Кен засмутиться, а їжа ж — на двох."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "surprised"
+     }
+    ],
+    "narr": "Ви біжите під дах павільйону. За секунду починається злива."
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "ぎりぎり間に合った！でも、傘を持ってくるのを忘れたよ。",
+    "r": "girigiri ma ni atta! demo, kasa o motte kuru no o wasureta yo.",
+    "uk": "Ледь устигли! Але я забув прихопити парасольку."
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "雨がやんだら、もう一度ピクニックしようか。",
+    "r": "ame ga yandara, mou ichido pikunikku shiyou ka.",
+    "uk": "Коли дощ припиниться, влаштуємо пікнік знову?",
+    "choice": {
+     "prompt": "Що скажеш?",
+     "options": [
+      {
+       "jp": "パンは冷たいから食べません。",
+       "uk": "Хліб холодний, тож їсти не буду.",
+       "correct": false,
+       "fb": "Тоді ти голодним залишишся."
+      },
+      {
+       "jp": "いいえ、雨は大好きですから、ずっと降ってほしいです。",
+       "uk": "Ні, я обожнюю дощ і хочу, щоб він не припинявся.",
+       "correct": false,
+       "fb": "Такий вибір не вирішує проблеми з пікніком."
+      },
+      {
+       "jp": "いいですね。やむまで食べながら待ちましょう。",
+       "uk": "Гарна ідея. Поки чекаємо, їмо.",
+       "correct": true,
+       "fb": "Правильно! «〜ながら» — дві дії одночасно."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Дощ минає за пів години. Над парком виростає велика веселка."
+   },
+   {
+    "bg": "park",
+    "chars": [
+     {
+      "id": "ken",
+      "pos": "left",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "ken",
+    "jp": "見て！にじだ！やっぱり、今日はいい日だね。",
+    "r": "mite! niji da! yappari, kyou wa ii hi da ne.",
+    "uk": "Дивись! Веселка! Все ж таки сьогодні добрий день."
+   }
+  ]
+ },
+ {
+  "id": "n4-restaurant-1",
+  "title": "Не те замовлення",
+  "l": 4,
+  "topic": "food",
+  "summary": "Таро приносить зовсім не те, що ти просив.",
+  "scenes": [
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ти вперше у цьому ресторані. Меню на японській, і ти обираєш навмання, показуючи пальцем."
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "ご注文はお決まりですか。",
+    "r": "gochuumon wa okimari desu ka.",
+    "uk": "Ви вже обрали?"
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "本日のおすすめは、天ぷらです。",
+    "r": "honjitsu no osusume wa, tenpura desu.",
+    "uk": "Сьогодні рекомендуємо темпуру.",
+    "choice": {
+     "prompt": "Що замовити?",
+     "options": [
+      {
+       "jp": "では、天ぷらと緑茶をお願いします。",
+       "uk": "Тоді темпуру й зелений чай, будь ласка.",
+       "correct": true,
+       "fb": "Чудово! «〜をお願いします» — ввічливе замовлення."
+      },
+      {
+       "jp": "水を飲みたくないです。",
+       "uk": "Я не хочу пити воду.",
+       "correct": false,
+       "fb": "Це не замовлення."
+      },
+      {
+       "jp": "もう食べました。",
+       "uk": "Я вже поїв.",
+       "correct": false,
+       "fb": "Тоді навіщо ти прийшов?"
+      }
+     ]
+    }
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Через кілька хвилин Таро несе величезну тарілку. Але вона не виглядає як темпура."
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "お待たせしました。お刺身です。",
+    "r": "omatase shimashita. osashimi desu.",
+    "uk": "Прошу, ваше сашимі."
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "あれ？違いましたか。",
+    "r": "are? chigaimashita ka.",
+    "uk": "Ох? Це не те?",
+    "choice": {
+     "prompt": "Як сказати про помилку?",
+     "options": [
+      {
+       "jp": "これは最悪の店です！",
+       "uk": "Це найгірший заклад!",
+       "correct": false,
+       "fb": "Занадто грубо, ще й несправедливо."
+      },
+      {
+       "jp": "すみません、天ぷらを頼んだはずですが…",
+       "uk": "Вибачте, я ж, здається, замовляв темпуру...",
+       "correct": true,
+       "fb": "Ввічливо і чітко! «〜はず» — очікування."
+      },
+      {
+       "jp": "お刺身が大好きなので、ありがとうございます。",
+       "uk": "Я обожнюю сашимі, дякую.",
+       "correct": false,
+       "fb": "Але ти ж замовляв інше, треба сказати."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "申し訳ありません！すぐに作り直します。",
+    "r": "moushiwake arimasen! sugu ni tsukurinaoshimasu.",
+    "uk": "Прошу вибачення! Зараз переготую."
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "sad"
+     }
+    ],
+    "narr": "За хвилину Таро несе правильну тарілку, ще й додає салат безкоштовно."
+   },
+   {
+    "bg": "restaurant",
+    "chars": [
+     {
+      "id": "taro",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "taro",
+    "jp": "お詫びに、デザートもサービスします。",
+    "r": "owabi ni, dezaato mo saabisu shimasu.",
+    "uk": "На знак вибачення десерт — за рахунок закладу."
+   }
+  ]
+ },
+ {
+  "id": "n4-shrine-1",
+  "title": "Омікудзі для Мей",
+  "l": 4,
+  "topic": "places",
+  "summary": "Ви з Мей витягуєте пророцтва в храмі, і твоє зовсім не втішає.",
+  "scenes": [
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Святковий день. У храмі багато людей, пахне смаженою локшиною та димом."
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "おみくじを引いてみない？",
+    "r": "omikuji o hiite minai?",
+    "uk": "Може, витягнемо омікудзі?"
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "私は大吉がいいな。あなたは？",
+    "r": "watashi wa daikichi ga ii na. anata wa?",
+    "uk": "Я хотіла б «великого щастя». А ти?",
+    "choice": {
+     "prompt": "Що відповісти?",
+     "options": [
+      {
+       "jp": "神社には行ったことがありません。",
+       "uk": "Я ніколи не був у храмі.",
+       "correct": false,
+       "fb": "Але ж ти вже тут!"
+      },
+      {
+       "jp": "私はおみくじを食べたいです。",
+       "uk": "Я хочу з'їсти омікудзі.",
+       "correct": false,
+       "fb": "Це кумедно, але недоречно."
+      },
+      {
+       "jp": "ぼくも大吉を引きたいです。",
+       "uk": "Я теж хочу витягнути «велике щастя».",
+       "correct": true,
+       "fb": "Правильно! «〜たい» виражає бажання."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "narr": "Мей відкриває папірець і підскакує: це «велике щастя»!"
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "やった！大吉だ！あなたは？",
+    "r": "yatta! daikichi da! anata wa?",
+    "uk": "Ура! Велике щастя! А в тебе?"
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "narr": "Ти розгортаєш папірець. Там написано «凶»: нещастя."
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "surprised"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "えっ…凶？でも、木に結べば大丈夫だよ。",
+    "r": "e... kyou? demo, ki ni musubeba daijoubu da yo.",
+    "uk": "Що... нещастя? Але якщо зав'язати на гілці, все буде добре.",
+    "choice": {
+     "prompt": "Що зробиш?",
+     "options": [
+      {
+       "jp": "じゃあ、木に結んでおきます。",
+       "uk": "Тоді зав'яжу його на гілці.",
+       "correct": true,
+       "fb": "Так і прийнято! «〜ておく» — зробити наперед."
+      },
+      {
+       "jp": "おみくじを破って、捨てます。",
+       "uk": "Порву й викину.",
+       "correct": false,
+       "fb": "Так робити не прийнято у храмі."
+      },
+      {
+       "jp": "もう一度、五十回引きます。",
+       "uk": "Витягну ще п'ятдесят разів.",
+       "correct": false,
+       "fb": "Це зайве і недоречно."
+      }
+     ]
+    }
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "narr": "Ти зав'язуєш папірець на гілці. Мей підбадьорливо плескає тебе по плечу."
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "大丈夫。私の幸運を半分あげるね。",
+    "r": "daijoubu. watashi no kouun o hanbun ageru ne.",
+    "uk": "Нічого. Я віддам тобі половину свого щастя."
+   },
+   {
+    "bg": "shrine",
+    "chars": [
+     {
+      "id": "mei",
+      "pos": "right",
+      "mood": "happy"
+     }
+    ],
+    "speaker": "mei",
+    "jp": "お参りが終わったら、たこ焼きを食べに行こう。",
+    "r": "omairi ga owattara, takoyaki o tabe ni ikou.",
+    "uk": "Коли закінчимо молитись, підемо їсти такояки."
+   }
+  ]
+ }
+]
